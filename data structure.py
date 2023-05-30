@@ -155,24 +155,20 @@ def isPalindrome(s):
         return s[0] == s[-1] and isPalindrome(s[1:-1])
 
 
-
-
-# function "9" calculate وتر مثلث قائم
-
-
-##import math
-##inputOk = False
-##while not inputOk:
-##    try:
-##        base = float(input('enter base'))
-##        hight = float(input('enter hight'))
-##        inputOk = True
-##    except:
-##        print('type error please enter float or integer ')
-##hyp = math.sqrt((base**2+hight**2))
-##print(hyp)
+# function "9" calculate triangle hypotenuse
+import math
+def caculate():
+  inputOk = False
+  while not inputOk:
+    try:
+      base = float(input('enter base'))
+      hight = float(input('enter hight'))
+      inputOk = True
+    except:
+       print('type error please enter float or integer ')
+  hyp = math.sqrt((base**2+hight**2))
+  return hyp
             
-
 
 # function "10" binary search increase by log2 of lists size
 
