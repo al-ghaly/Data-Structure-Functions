@@ -1,4 +1,4 @@
-# Data-Structure-Functions-
+# Data-Structure-Functions
 ## Some basic Algorithms 
 <br> <br>
 
